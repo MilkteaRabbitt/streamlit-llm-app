@@ -62,5 +62,5 @@ if st.button("プランを生成"):
         st.warning("ご希望の内容を入力してください。")
     else:
         answer = get_llm_response(user_input, selected_item)
-        st.subheader("AIからの提案")
+        st.subheader("専門家からの提案")
         st.write(answer)
